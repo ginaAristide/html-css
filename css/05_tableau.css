@@ -1,0 +1,46 @@
+*{
+    font-family:fantasy;
+}
+
+body{
+    width: 50%; /* pourcentage par rapport à la taille de l'écran*/
+    margin: auto; /* gestion automatique des marges pour que le tableau soit centré */
+}
+
+table{
+    border: 4px solid #690ed1; /* épaisseur, trait normal et couleur */
+    border-collapse: collapse; /* Pour coller les border des cellules*/
+    width: 100%; /* prend toute la largeur du body*/
+}
+
+caption{
+    font-size: 30px;
+    color: rgb(81, 0, 128);
+    padding: 20px;
+    background-color: rgb(218, 236, 252);
+}
+
+thead, tfoot{
+    background-color: rgb(218, 236, 252);
+    border: 2px solid #690ed1;
+}
+tbody{
+    border: 3px double #a674df; /* solid dashed, dotted, double, ridge, groove*/
+}
+
+th{
+    border: 1px dotted #a674df;
+    padding: 4px;
+    background-color: mistyrose;
+}
+
+td{
+    font-size: 120%;
+    border: 1px dotted #a674df;
+    text-align: center;
+}
+
+tr td:first-child{ /* 1er td pour aligner le text à gauche de chaque rangée */
+    text-align: left;
+    background-color: rgb(152, 255, 221); /* rgb = rouge, vert, bleu*/
+}

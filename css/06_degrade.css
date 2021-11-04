@@ -1,0 +1,12 @@
+.contenu{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border-radius: 50%; /* arrondie les angles*/
+    /* background: linear-gradient(to left, #40a497, #6840a4);va de droite à gauche: violet à gauche et vert à droite) */
+    background: rgb(156,2,34);
+    background: -moz-linear-gradient(353deg, rgba(156,2,34,1) 0%, rgba(162,74,129,1) 12%, rgba(170,170,255,1) 49%, rgba(120,182,255,1) 68%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(353deg, rgba(156,2,34,1) 0%, rgba(162,74,129,1) 12%, rgba(170,170,255,1) 49%, rgba(120,182,255,1) 68%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(353deg, rgba(156,2,34,1) 0%, rgba(162,74,129,1) 12%, rgba(170,170,255,1) 49%, rgba(120,182,255,1) 68%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9c0222",endColorstr="#00d4ff",GradientType=1); 
+}

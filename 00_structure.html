@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!-- balise obligatoire, on la place en premier et elle désigne le type de document au navigateur, n'est pas sensible à la case-->
+<html lang="fr"> <!-- balise obligatoire, lang est un attribut qui a pour valeur fr, spécifie la langue utilisée sur le document-->
+<head> <!-- Le contenu de cette balise contient les paramètres de la page, ils ne sont pas visibles-->
+    <meta charset="UTF-8"><!-- ici on précise quel encodage est utilisé pour le document-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- assure la compatiblilité avec IE et Edge-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- définit la largeur du contenu comme étant égale à celle du support (écran), cette balise ne suffit pas à rendre le contenu responsive-->
+    <title>Structure HTML</title> <!-- Le titre de la page qui s'affiche dans l'onglet-->
+    <link rel="stylesheet" href="css/00_style.css"><!-- on n'oublie pas de vérifier notre chemin-->
+</head>
+<body><!-- c'est ici qu'on entrera le contenu-->
+    <header><!-- en-tête-->
+        <nav></nav><!-- barre de navigation-->
+    </header>
+
+    <main><!-- à utiliser qu'une fois par page, son contenu ne doit pas être dupliqué-->
+        <h1>Le titre</h1><!-- Le h1 n'apparait qu'une fois par page, c'est le titre le plus important-->
+
+        <section>
+            <h2></h2> <!-- titre de niveau 2-->
+
+            <p></p> <!-- p pour paragraphe-->
+
+            <ul> <!-- ul pour unnordonned list = liste non ordonnée-->
+                <li></li> <!-- li pour list item = élément de la liste-->
+                <li></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer></footer> <!-- pied de page -->
+    
+</body>
+</html> <!-- Bien fermer les balises sinon le navigateur ne respectera pas notre mise en forme -->

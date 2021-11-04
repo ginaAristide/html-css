@@ -1,0 +1,23 @@
+body{
+    margin: 0; /*en haut, à droite, en bas et à gauche*/
+}
+
+.boite{
+    height: 10vh; /* vh = viewport height*/
+    width: 10vw; /* vw = viewport width */
+    padding: 5vh;
+    background-image: url(../img/siamois.jpg);
+    background-size: cover; /* étire l'image pour qu'elle rentre dans la balise*/
+    border: 5px double lightskyblue;
+    margin: 2vh;
+    float: left; /* effet flottant, ça sort les éléments du flux naturel de la page les places les uns à coté des autres*/
+    transition: margin 0.5s; /* augmente le margin en 0.5s grâce à :hover*/
+}
+
+.boite:hover{/* pseudo-class qui applique un effet au survol de la souris*/
+    margin-top: 10vh;
+}
+
+.clear{
+    clear: both; /* supprime l'effet flottant des deux côté*/
+}
